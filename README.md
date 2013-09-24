@@ -5,9 +5,9 @@ It gathers data from the varz providers for the various CloudFoundry components.
 
 ## Ask Questions
 
-Questions about the Admin UI v1 Project can be directed to our Google Groups.
+Questions about the Admin UI v1 Project can be directed to the CF Google Group:
 
-* Cloud Foundry DevelopersAcme Air Users: [https://groups.google.com/a/cloudfoundry.org/forum/#!forum/vcap-dev](https://groups.google.com/a/cloudfoundry.org/forum/#!forum/vcap-dev)
+* Cloud Foundry Developers: [https://groups.google.com/a/cloudfoundry.org/forum/#!forum/vcap-dev](https://groups.google.com/a/cloudfoundry.org/forum/#!forum/vcap-dev)
 
 ## Submit a bug report
 
