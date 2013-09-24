@@ -1,0 +1,38 @@
+---
+cloud_controller_uri: http://api.cloud-controller
+mbus: nats://nats:nats@10.10.10.10:4222
+port: 8070
+data_file: data/data.json
+stats_file: data/stats.json
+log_file: admin_ui.log
+ui_credentials:
+  username: user
+  password: passw0rd
+ui_admin_credentials:
+  username: admin
+  password: passw0rd
+dea_retries: 10
+nats_discovery_timeout: 10
+component_connection_retries: 2
+sender_email:
+  server: 10.10.10.10
+  account: system@10.10.10.10
+receiver_emails: [ ]
+monitored_components:
+  - NATS
+  - CloudController
+  - DEA
+  - HealthManager
+  - Router
+  - -Provisioner
+  - ALL
+cache_refresh_interval: 30
+tasks_refresh_interval: 5000
+stats_refresh_time: 300
+stats_retry_interval: 300
+stats_retries: 5
+log_file_page_size: 51200
+log_files:
+  - /home/cloudfoundry/cloudfoundry/.deployments/devbox/log/*.log
+  - /home/cloudfoundry/cloudfoundry/.deployments/devbox/log/nginx/*.log
+
